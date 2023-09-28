@@ -1,13 +1,13 @@
 import './App.css';
-import EventComponent from './events/EventComponent';
+import UserSearch from './refs/UserSearch';
 import GuestList from './state/GestList';
-import UserSearch from './state/UserSearch';
+
 
 const App = () => {
   return (
     <div>
      <GuestList></GuestList>
-     <EventComponent/>
+     <UserSearch/>
     </div>
   )
 }
